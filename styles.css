@@ -54,7 +54,7 @@ footer {
 }
 
 .cover-image {
-	background-image: url('images/full-stack-web-developer.jpg');
+	background-image: url('full-stack-web-developer.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;

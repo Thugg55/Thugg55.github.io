@@ -53,3 +53,46 @@ footer {
     border-top: 1px solid #ddd;
 }
 
+.cover-image {
+	background-image: url('full_stack_banner.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.overlay-text {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cover-image h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.cover-image p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+}
